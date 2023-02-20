@@ -1,8 +1,9 @@
 /*  Echo Message Java Program */
 /* 8-31-21 */
 public class echoMsg  {
+    private static String userName = "USERNAME";
     public static void main(String[] args) {
-      String value = System.getenv("USERNAME");
+      String value = System.getenv(userName);
       if (value != null) {
           System.out.format("Greetings %s!\n",value);
       } else {
