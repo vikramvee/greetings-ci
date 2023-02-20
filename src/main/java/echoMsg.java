@@ -2,6 +2,7 @@
 /* 8-31-21 */
 public class echoMsg  {
     private static String userName = "USERNAME";
+    private static String aruguments = "Here are the arguments you passed in.";
     public static void main(String[] args) {
       String value = System.getenv(userName);
       if (value != null) {
